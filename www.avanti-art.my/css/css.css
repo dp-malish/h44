@@ -1,0 +1,37 @@
+html,body{height:100%;
+    font:15px Verdana,Geneva,serif;
+    text-align:justify;
+    cursor:default;
+    box-sizing:border-box;
+}
+.maxw{
+    margin:0 auto;
+    max-width:1240px;
+    /*overflow-x:hidden;*/
+
+}
+p,ol,ul,ul li{margin:10px}
+ul{list-style:none}
+p{line-height:180%}
+
+.check::before{
+    content:'✔ ';
+}
+.item:hover .check{
+    color:red
+}
+.item li:hover .check{
+    color:#9BEFF3
+}
+/*++++++++++++++++++++++++++++++++*/
+.fon,.fon2{
+    min-height:100px;
+}
+
+.fon{
+    background-color: #ffffdd;
+}
+.fon2{
+    background-color:#EFE0C8;
+}
+/************************************/
