@@ -1,5 +1,8 @@
-html,body{height:100%;
-    font:15px Verdana,Geneva,serif;
+html,body{
+    height:100%;
+    font-family:Roboto, sans-serif;
+    font-size:15px;
+    line-height: 1.15;
     text-align:justify;
     cursor:default;
     box-sizing:border-box;
@@ -25,7 +28,7 @@ p{line-height:180%}
 }
 /*++++++++++++++++++++++++++++++++*/
 .fon,.fon2{
-    min-height:100px;
+    min-height:300px;
 }
 
 .fon{

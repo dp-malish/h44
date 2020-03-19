@@ -1,0 +1,47 @@
+#lp1{
+    position: relative;
+    background: url(/img/lp1/slider.png) no-repeat;
+    /*background-size: 100%;*/
+    background-size:cover;
+    /*min-height:593px;
+    color:#DC7D43;*/
+    color:#ffffff;
+}
+#lp1 a:link{
+    color:#ffffff;
+    text-decoration:none;
+    font-weight:700;
+}
+#lp1 a:hover,#lp1 a:active,#lp1 a:visited{
+    background: #786b59; /* Цвет фона под ссылкой */
+    color: #fff;
+}
+.h10px{
+    height: 10px;
+}
+
+#logo{
+    float:left;
+    width:150px;
+    padding:5px;
+    text-align:center;
+}
+
+#logoTel{
+    float:left;
+    width:150px;
+    /*background-color:darkred;*/
+    margin:40px 0 0 50px;
+}
+
+.horLine{
+    height:3px;
+    background-color:#DC7D43;;
+}
+#tag-line{
+    padding:12px 0;
+}
+#tag-line h2{
+    font-size:20px;
+    font-weight:500;
+}
