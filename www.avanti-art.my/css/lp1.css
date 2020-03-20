@@ -6,6 +6,7 @@
     /*min-height:593px;
     color:#DC7D43;*/
     color:#ffffff;
+    padding-bottom: 50px;
 }
 #lp1 a:link{
     color:#ffffff;
@@ -16,9 +17,7 @@
     background: #786b59; /* Цвет фона под ссылкой */
     color: #fff;
 }
-.h10px{
-    height: 10px;
-}
+
 
 #logo{
     float:left;
@@ -34,7 +33,7 @@
 }
 .horLine{
     height:3px;
-    background-color:#DC7D43;;
+    background-color:#DC7D43;
 }
 #tag-line{
     padding:12px 0;
@@ -42,4 +41,29 @@
 #tag-line h2{
     font-size:20px;
     font-weight:500;
+}
+#tag-line-ext{
+    /*background-color: #9BEFF3;*/
+    max-width:440px;
+    margin:5% 0 0 13%;
+    font-size:56px;
+    font-weight:400;
+}
+#btn-keysi{
+    width:180px;
+    font-weight:400;
+    border:#fff 1px solid;
+    border-radius:50px;
+    margin:3% 0 0 13%;
+    padding:13px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+#btn-keysi:hover{
+    background-color:#EFE0C8;
+    color:#000;
+}
+#btn-keysi:active{
+    background-color:#fff;
 }
