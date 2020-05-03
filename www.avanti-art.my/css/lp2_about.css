@@ -1,0 +1,31 @@
+#lp2_about{
+    position:relative;
+    background-color:#ef7f22;
+    min-height:300px;
+}
+#lp2_mc{
+    padding:10px 25px;
+}
+#cont_fluid_lp2,#cont_fluid_lp2_2{
+    width:49%;
+    background-color:#786b59;
+    border:1px solid #9BEFF3;
+}
+@media screen and (max-width:640px){
+    #lp2_mc{
+        padding:10px 0;
+    }
+    #cont_fluid_lp2,#cont_fluid_lp2_2{
+        width:100%;
+    }
+}
+.cont_fluid_lp2_child{
+    margin:13px;
+    max-width:320px;
+    min-width:230px;
+    background-color: #f567dd;
+}
+#lp2_about h3{
+    color:#fff;
+    text-align:center;
+}

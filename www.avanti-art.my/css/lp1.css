@@ -35,17 +35,27 @@
 #topMenu{
     margin:24px 2px 0;
     float:right;
-    height:50px;
-    background-color: #9BEFF3;
+    height:40px;
+    /*background-color: #9BEFF3;*/
 
 }
 .tmlink{
-    background-color: #ffffdd;
-    padding: 12px;
-    margin: 12px;
+    /*background-color: #ffffdd;*/
+    padding:12px;
+    margin:4px 12px 0;
 
 }
-
+@media screen and (max-width:1040px){
+    .tmlink{
+        margin:4px 5px 0;
+        padding:12px 3px;
+    }
+}
+@media screen and (max-width:870px){
+    .tmlink{
+        display: none;
+    }
+}
 
 /********/
 .horLine{
@@ -59,11 +69,34 @@
     font-size:20px;
     font-weight:500;
 }
+@media screen and (max-width:730px){
+    #tag-line h2{
+        text-align:center;
+        font-weight:400;
+    }
+}
 #tag-line-ext{
+    overflowx-y:hidden;
     max-width:440px;
-    margin:5% 0 0 13%;
+    margin:5% 0 0 5%;
     font-size:56px;
     font-weight:400;
+}
+@media screen and (min-width:340px) and (max-width:630px){
+    #tag-line-ext{
+        max-width:440px;
+        margin:0 3%;
+        font-size:40px;
+        font-weight:300;
+    }
+}
+@media screen and (max-width:339px){
+    #tag-line-ext{
+        width:100%;
+        margin:0;
+        font-size:35px;
+        font-weight:300;
+    }
 }
 #btn-keysi{
     width:180px;
