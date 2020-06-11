@@ -9,13 +9,15 @@
     padding-bottom: 50px;
 }
 #lp1 a:link{
-    color:#ffffff;
+    color:#fff;
     text-decoration:none;
     font-weight:700;
 }
-#lp1 a:hover,#lp1 a:active,#lp1 a:visited{
-    background: #786b59; /* Цвет фона под ссылкой */
-    color: #fff;
+#lp1 a:active,#lp1 a:visited{
+    color:#fff;
+}
+#lp1 a:hover{
+    color:#DC7D43;
 }
 
 
