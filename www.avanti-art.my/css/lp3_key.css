@@ -1,0 +1,29 @@
+#lp3_key{
+    padding:40px 0;
+}
+
+
+#lp3_key h1{
+    color:#555E6E;
+}
+
+
+
+.lp3_text1{
+    margin:40px 40px;
+    border-left:#EF7F22 5px solid;
+    border-right:#EF7F22 5px solid;
+    background-color:#F6F7F7;
+
+}
+#lp3_text_1_cont div{
+    width: 43%;
+    background-color: #9BEFF3;
+}
+
+.lp3_list .item::before{
+    content:'✓ ';
+}
+.lp3_list li:hover .item{
+    color:red;
+}
