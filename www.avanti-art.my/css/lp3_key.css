@@ -13,10 +13,10 @@
     margin:40px 40px;
     border-left:#EF7F22 5px solid;
     border-right:#EF7F22 5px solid;
-    background-color:#F6F7F7;
+    /*background-color:#F6F7F7;*/
 
 }
-#lp3_text_1_cont div{
+/*#lp3_text_1_cont div{
     width: 43%;
     background-color: #9BEFF3;
 }
@@ -26,4 +26,4 @@
 }
 .lp3_list li:hover .item{
     color:red;
-}
+}*/
