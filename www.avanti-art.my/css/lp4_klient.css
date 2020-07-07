@@ -4,3 +4,21 @@
 #customers{
     padding:40px 0;
 }
+
+.carousel-item {
+    margin: 0 auto;
+    height: 116px;
+    width: 190px;
+    cursor: grab;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+}
+
+
+.lp4_list .item::before{
+    content:'✓ ';
+}
+.lp4_list li:hover .item{
+    color:red;
+}
