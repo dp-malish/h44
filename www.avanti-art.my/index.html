@@ -43,13 +43,16 @@
             <span class="c-orange">КОМПЛЕКСНІ</span><br>РЕКЛАМНІ<br>КАМПАНІЇ
         </div>
 
-        <div id="btn-keysi">НАЩІ ПРОПОЗИЦІЇ</div>
+        <div id="btn-keysi">НАШІ ПРОПОЗИЦІЇ</div>
         <script>
             document.getElementById("btn-keysi").onclick=function(){location.href="#offers";};
         </script>
 <div class="h30px"></div>
     </div>
 </div>
+
+
+<script src="/js/jq_3_5_1.js"></script>
 
 
 <div id="lp2_about">
@@ -61,7 +64,7 @@
         <div id="cont_fluid_lp2" class="dwfse">
             <div class="cont_fluid_lp2_child">
                 <div class="lp2_heading"><h3>ШИРОКОФОРМАТНАЯ<br>ПЕЧАТЬ</h3></div>
-                <div>
+                <div class="lp2_heading_open rel">
                     <ul class="lp2_list">
                         <li><span class="item"></span>печать на литом банере</li>
                         <li><span class="item"></span>печать на китайском банере</li>
@@ -73,10 +76,18 @@
                         <li><span class="item"></span>печать на банере back light</li>
                         <li><span class="item"></span>печать на светоотражающей<br> плёнке</li>
                     </ul>
+                    <div class="arrow-height"></div>
+                    <div class="arrow">
+                        <span class="arrow-left"></span>
+                        <span class="arrow-right"></span>
+                    </div>
                 </div>
             </div>
+
+
+
             <div class="cont_fluid_lp2_child"><div class="lp2_heading"><h3>ПОЛИГРАФИЯ</h3></div>
-                <div>
+                <div class="lp2_heading_open rel">
                     <ul class="lp2_list">
                         <li><span class="item"></span>буклеты</li>
                         <li><span class="item"></span>листовки</li>
@@ -87,10 +98,16 @@
                         <li><span class="item"></span>календари</li>
                         <li><span class="item"></span>открытки</li>
                     </ul>
+                    <div class="arrow-height"></div>
+                    <div class="arrow">
+                        <span class="arrow-left"></span>
+                        <span class="arrow-right"></span>
+                    </div>
                 </div>
             </div>
+
             <div class="cont_fluid_lp2_child"><div class="lp2_heading"><h3>НАРУЖНАЯ<br>РЕКЛАМА</h3></div>
-                <div>
+                <div class="lp2_heading_open rel">
                     <ul class="lp2_list">
                         <li><span class="item"></span>вывески</li>
                         <li><span class="item"></span>борды</li>
@@ -100,29 +117,55 @@
                         <li><span class="item"></span>фасады</li>
                         <li><span class="item"></span>адресные таблички</li>
                     </ul>
+
                 </div>
             </div>
             <div class="cont_fluid_lp2_child"><h3 class="lp2_heading">СУВЕНИРНАЯ<br>ПРОДУКЦИЯ</h3>
-                <div>
+                <div class="lp2_heading_open rel">
                     <ul class="lp2_list">
                         <li><span class="item"></span>плакетки</li>
                         <li><span class="item"></span>брелки</li>
                         <li><span class="item"></span>значки</li>
                         <li><span class="item"></span>ручки</li>
                         <li><span class="item"></span>пакеты</li>
+                        <li><span class="item"></span>шильды</li>
                     </ul>
+
                 </div>
 
             </div>
             <div class="cont_fluid_lp2_child"><h3 class="lp2_heading">POS<br>МАТЕРИАЛЫ</h3>
-                <div>
+                <div class="lp2_heading_open rel">
                     <ul class="lp2_list">
                         <li><span class="item"></span>шильды</li>
                     </ul>
+                    <div class="arrow-height"></div>
+                    <div class="arrow">
+                        <span class="arrow-left"></span>
+                        <span class="arrow-right"></span>
+                    </div>
                 </div>
             </div>
 
+            <script type="application/javascript">
+                $(".arrow").click(function() {
+                    $(this).toggleClass("open");
+                    $($(this).parent()).animate({
+                        //width : 400,
+                        height :350
+                    });
+
+
+
+
+
+                });
+
+
+            </script>
+
         </div>
+
 
 
 
@@ -159,7 +202,7 @@
         <h1 class="ac">СПІВПРАЦЮ З НАМИ ОБРАЛИ ВЖЕ ТАКІ ЗАМОВНИКИ:</h1>
     </div>
     <link rel="stylesheet" href="/css/owl.carousel.min.css"><link rel="stylesheet" href="/css/owl.theme.default.min.css">
-    <script src="/js/jq_3_5_1.js"></script><script src="/js/owl.carousel.min.js"></script>
+    <script src="/js/owl.carousel.min.js"></script>
 
     <div>
 
