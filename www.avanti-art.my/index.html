@@ -150,10 +150,23 @@
             <script type="application/javascript">
                 $(".arrow").click(function() {
                     $(this).toggleClass("open");
+
+                    var h_div=$(this).parent().outerHeight(true);
+
+                //alert(h_div);
+
+                    if(h_div>250){
+
                     $($(this).parent()).animate({
                         //width : 400,
-                        height :350
+                        height :200
                     });
+
+                    }else{
+                        $($(this).parent()).animate({
+                            height :350
+                        });
+                    }
 
 
 

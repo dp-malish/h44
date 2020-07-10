@@ -52,11 +52,11 @@
 .lp2_heading_open{
     overflow-y: hidden;
     padding-bottom:40px;
-    height: 200px;
+    height:200px;
 }
 
 .arrow-height{
-    position: absolute;
+    position:absolute;
     left: 0;
     bottom: 0;
     height:35px;
