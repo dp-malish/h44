@@ -16,9 +16,17 @@
 }
 .lp4_list{
 
-    margin:40px 40px;
+    width:40%;
+    margin:40px 20px;
     border-left:#EF7F22 5px solid;
     border-right:#EF7F22 5px solid;
+}
+@media screen and (max-width:600px){
+    .lp4_list{
+        width:90%;
+        margin:0 auto;
+
+    }
 }
 
 .lp4_list .item::before{
