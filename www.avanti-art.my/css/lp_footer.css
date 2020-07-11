@@ -1,0 +1,14 @@
+.foot_adres{
+    margin: 0 auto;
+    padding:40px 40px;
+    width:230px;
+    background-color: antiquewhite;
+}
+.foot_adres_town{
+    background-color: #9BEFF3;
+    margin:7px 0;
+}
+.foot_adres_town:before{
+
+    content: url("/img/site/map_sign.png");
+}
