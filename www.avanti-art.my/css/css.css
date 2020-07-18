@@ -10,8 +10,6 @@ html,body{
 .maxw{
     margin:0 auto;
     max-width:1240px;
-    /*overflow-x:hidden;*/
-
 }
 p,ol,ul,ul li{margin:10px}
 ul{list-style:none}

@@ -1,8 +1,30 @@
+#coordinates a:link{
+    color:#fff;
+    text-decoration:none;
+    font-weight:700;
+}
+#coordinates a:active,#coordinates a:visited{
+    color:#fff;
+}
+#coordinates a:hover{
+    color:#DC7D43;
+}
+
+
+#coordinates{
+    padding: 30px 0;
+}
+
+
+#coordinates h1{
+    color:#555E6E;
+}
+
 .foot_adres{
     margin: 0 10px;
     padding:40px 40px;
     width:230px;
-    background-color: antiquewhite;
+    /*background-color: antiquewhite;*/
 }
 .foot_adres_town{
 
@@ -12,19 +34,33 @@
     content:url("/img/site/map_sign.png")
 }
 .foot_socseti_fb,.foot_socseti_inst{
-    width:70px;
-    height:70px;
+    width:50px;
+    height:50px;
     position: relative;
     overflow: hidden;
-    background-color: #ffffdd;
+    /*background-color: #ffffdd;*/
+    margin: 13px;
 }
+
+.foot_socseti_part{
+    /*background-color: #9BEFF3;*/
+}
+.foot_socseti_part span{
+    margin-top:30px;
+    display: inline-block;
+/*    vertical-align: middle;
+    background-color: #ef7f22;*/
+}
+
+
 .foot_socseti_fb img,.foot_socseti_inst img{
     max-width: none;
     position: absolute;
     top: 0;
-    left: 0;
 }
-
+.foot_socseti_inst img{
+    left:-50px;
+}
 
 
 
