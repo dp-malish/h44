@@ -1,3 +1,15 @@
+#lp2_about a:link{
+    color:#fff;
+    text-decoration:none;
+    font-weight:500;
+}
+#lp2_about a:active,#lp2_about a:visited{
+    color:#fff;
+}
+#lp2_about a:hover{
+    color:#555E6E;
+}
+
 #lp2_about{
     position:relative;
     background-color:#ef7f22;

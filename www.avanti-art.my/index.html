@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/css/lp2_about.css">
     <link rel="stylesheet" href="/css/lp3_key.css">
     <link rel="stylesheet" href="/css/lp4_klient.css">
+    <link rel="stylesheet" href="/css/lp5_work.css">
 
 
     <link rel="stylesheet" href="/css/lp_footer.css">
@@ -30,7 +31,7 @@
                 <div class="tmlink"><a href="#offers">ПРОПОЗИЦІЇ</a></div>
                 <div class="tmlink"><a href="#advertising">РЕКЛАМА</a></div>
                 <div class="tmlink"><a href="#customers">КЛІЕНТИ</a></div>
-                <div class="tmlink">НАГРАДЫ</div>
+                <div class="tmlink"><a href="#work">РОБОТИ</a></div>
                 <div class="tmlink"><a href="#coordinates">КОНТАКТИ</a></div>
             </div>
 <div class="cl"></div>
@@ -64,22 +65,6 @@
 <div id="lp2_about">
     <div id="lp2_mc" class="maxw rel">
 
-        <a rel="simplebox" href="/img/lp1/slider.png">
-            Ткни сюда!!!</a>
-        <script type="text/javascript">
-            (function(){
-                var boxes=[],els,i,l;
-                if(document.querySelectorAll){
-                    els=document.querySelectorAll('a[rel=simplebox]');
-                    Box.getStyles('simplebox_css','/css/simplebox.css');
-                    Box.getScripts('simplebox_js','/js/simplebox.js',function(){
-                        simplebox.init();
-                        for(i=0,l=els.length;i<l;++i)
-                            simplebox.start(els[i]);
-                        simplebox.start('a[rel=simplebox_group]');
-                    });
-                }
-            })();</script>
 
         <div id="offers" class="dwfse">
 
@@ -88,7 +73,7 @@
                 <div class="lp2_heading"><h3>ШІРОКОФОРМАТНА<br>ПЕЧАТЬ</h3></div>
                 <div class="lp2_heading_open rel">
                     <ul class="lp2_list">
-                        <li><span class="item"></span>друк на литому банері</li>
+                        <li><span class="item"></span><a rel="simplebox" href="/img/lp1/slider.png">друк на литому банері</a></li>
                         <li><span class="item"></span>друк на китайському банері</li>
                         <li><span class="item"></span>друк на плівці</li>
                         <li><span class="item"></span>друк на банерній сітці</li>
@@ -191,6 +176,22 @@
                     }
                 });
             </script>
+
+            <script type="text/javascript">
+                (function(){
+                    var boxes=[],els,i,l;
+                    if(document.querySelectorAll){
+                        els=document.querySelectorAll('a[rel=simplebox]');
+                        Box.getStyles('simplebox_css','/css/simplebox.css');
+                        Box.getScripts('simplebox_js','/js/simplebox.js',function(){
+                            simplebox.init();
+                            for(i=0,l=els.length;i<l;++i)
+                                simplebox.start(els[i]);
+                            simplebox.start('a[rel=simplebox_group]');
+                        });
+                    }
+                })();</script>
+
         </div>
         </div>
     </div>
@@ -374,7 +375,16 @@
 
 <br>
 </div>
-<div class="fon rel"></div>
+
+
+<div id="work" class="fon rel">
+    <div><h1 class="ac">ШІРОКОФОРМАТНА ПЕЧАТЬ</h1></div>
+
+
+
+</div>
+
+
 <div id="coordinates" class="fon2 rel">
     <div class="maxw rel">
         <div>
